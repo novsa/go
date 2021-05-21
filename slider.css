@@ -1,0 +1,108 @@
+/**
+ * CONTAINER
+ */
+
+.opineo-side-slider-widget {
+    z-index: 2147483647;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    box-shadow:0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.opineo-side-slider-widget--absolute {
+    position: absolute;
+}
+
+.opineo-side-slider-widget--left {
+    left: 0;
+    transform: translateX(0);
+}
+
+.opineo-side-slider-widget--hidden {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.opineo-side-slider-widget--left.opineo-side-slider-widget--hidden {
+    transform: translateX(-100%);
+}
+
+.opineo-side-slider-widget--right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.opineo-side-slider-widget--right.opineo-side-slider-widget--hidden {
+    transform: translateX(100%);
+}
+
+/**
+ * LABEL
+ */
+
+.opineo-side-slider-widget__label {
+    background: url("side_slider_gfx.png") no-repeat scroll 0;
+    width: 40px;
+    height: 130px;
+    position:absolute;
+    top: 40px;
+    border: 0;
+}
+
+.opineo-side-slider-widget__label--left {
+    right: -40px;
+    background-position-x: -631px;
+}
+
+.opineo-side-slider-widget__label--right {
+    left: -40px;
+}
+
+/**
+ * IFRAME
+ */
+
+.opineo-side-slider-widget__iframe {
+    display: block;
+    border: 0;
+    pointer-events: all;
+}
+
+.opineo-side-slider-widget--hidden .opineo-side-slider-widget__iframe {
+    pointer-events: none;
+}
+
+/**
+ * LOADER
+ */
+
+.opineo-side-slider-widget__loader {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    color: #0C528E;
+    font-size: 14px;
+    font-family: Arial, Sans, sans-serif;
+}
+
+.opineo-side-slider-widget__loader:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url("opi_loader.gif") no-repeat center center;
+}
+
+.opineo-side-slider-widget__loader--hidden {
+    display: none;
+}

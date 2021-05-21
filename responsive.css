@@ -1,0 +1,318 @@
+/* desktop */
+
+@media (max-width: 1130px) {
+    div#topslider ul > li .desc .scontent span {
+        font-size: 292%!important;
+    }
+}
+@media (max-width: 1060px) {
+    .langs{display: none;}
+}
+@media (max-width: 992px) {
+    div#topslider ul > li .desc .scontent span {
+        font-size: 235%!important;
+    }
+}
+
+/* Smartphones */
+
+
+
+@media (max-width: 767px) {
+    h2.list-title {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    .page-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testimonials-slider-bar {
+        margin: 50px 0 100px 0;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer_column_widget .f-title {
+        text-align: center;
+        display: block;
+    }
+
+    .footer_column_widget .f-title:after {
+        width: 300px!important;
+        margin: 10px auto 0px auto!important;
+        max-width: 100%;
+    }
+
+    .menu-stopka-container ul li {
+        text-align: center;
+    }
+
+    .footer_column_widget {
+        margin-bottom: 60px;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .beforefooter .col-text {
+        padding: 10px 0%!important;
+    }
+
+    .beforefooter > div > .row > div:first-child {
+        padding-top: 40px!important;
+    }
+
+    .beforefooter > div > .row > div:last-child {
+        padding-bottom: 40px!important;
+    }
+
+    .list1 .list1area .list1item {
+        width: 100%!important;
+        max-width: 300px;
+        clear: both;
+        margin: 30px auto 60px auto;
+        padding: 0 25px;
+        display: block;
+        float: none;
+    }
+
+    .formbox {
+        width: 256px;
+        margin: 15px auto 0px auto;
+    }
+
+    .formbox .input-group input[type="text"] {
+        margin: 10px auto;
+    }
+
+    .formbox button {
+        float: none;
+        margin: 10px auto;
+        width: 216px;
+    }
+
+    .formbox .input-group .validateError {
+        right: 50%!important;
+        transform: translateX(50%);
+        top: -54%;
+    }
+
+    .formbox form.error .input-group .validateError {
+        top: -7%;
+    }
+
+    .formbox .success {
+        height: 195px;
+        font-size: 35px;
+        padding-top: 23%;
+    }
+    div#topslider ul > li .desc .scontent p, div#topslider ul > li .desc .scontent span {
+        text-align: center!important;
+    }
+    .header-general-menu {
+        float: none;
+        text-align: center;
+        margin: 0px 0;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    ul#menu-gorne-menu> li {
+        display: block;
+        padding: 11px 5px;
+    }
+    .topbar {
+        min-height: 75px;
+    }
+    img.toplogo {}
+
+    .formbox .input-group {
+        display: block;
+        margin: auto;
+    }
+
+    .testimonials-slider-bar .bx-wrapper .bx-controls-direction a.bx-prev {
+        left: 20%;
+    }
+
+    .testimonials-slider-bar .bx-wrapper .bx-controls-direction a {
+        top: auto;
+        bottom: -50px;
+    }
+
+    .testimonials-slider-bar .bx-wrapper .bx-controls-direction a.bx-next {
+        right: 20%;
+    }
+
+    div.section {
+        margin: 40px 0 20px 0;
+    }
+
+    .mobileHamburger {
+        position: static;
+        float: right;
+        margin-top: 20px;
+    }
+
+    .header-general-menu.mobileopened {
+        margin: 20px 0;
+        max-height: 2000px;
+    }
+}
+
+
+/* ============================ iPad 3 & 4 Media Queries ============================ */
+/* ================================================================================== */
+
+/* iPad in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* ============================ iPad mini Media Queries ============================ */
+/* ================================================================================= */
+
+/* iPad mini in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* ============================ iPhone Media Queries ============================ */
+/* ============================================================================== */
+
+/* iPhone 6 in portrait & landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+}
+
+/* iPhone 6 in landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 in portrait */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 6 Plus Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 6 Plus in portrait & landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+}
+
+/* iPhone 6 Plus in landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 Plus in portrait */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 5 & 5S Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 5 & 5S in portrait & landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 & 5S Plus in landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 & 5S Plus in portrait */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
