@@ -1,0 +1,52 @@
+.beforefooter.section div {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-right: 0 !Important;
+	padding-left: 0;
+}
+.beforefooter.section div p {
+	font-size: 27px;
+	font-weight: 600;
+	font-family: "museo-sans-rounded",sans-serif;
+	line-height: 1.5;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.beforefooter.section ul {
+	font-size: 0;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+.beforefooter.section ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 1rem;
+	text-indent: 0;
+}
+.beforefooter.section ul li  a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	line-height: 1.6;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.beforefooter.section ul li  a:hover {
+	text-decoration: underline;
+}
+@media (max-width: 767px) {
+	.codesection .page-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.page-wrap .formbox {
+		width: auto;
+		margin: 0 auto 0px auto;
+	}
+}
